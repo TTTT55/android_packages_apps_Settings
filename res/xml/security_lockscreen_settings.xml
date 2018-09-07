@@ -22,6 +22,12 @@
     android:title="@string/lockscreen_settings_title"
     settings:keywords="@string/keywords_ambient_display_screen">
 
+    <!-- Face auto unlock -->
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="face_auto_unlock"
+        android:title="@string/face_auto_unlock_title"
+        android:summary="@string/face_auto_unlock_summary" />
+
     <PreferenceCategory
         android:key="lockscreen_what_to_show"
         android:title="@string/lockscreen_settings_what_to_show_category">
