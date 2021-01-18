@@ -30,7 +30,6 @@ import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.security.SecurityFeatureProvider;
 import com.android.internal.widget.LockPatternUtils;
 
-public class FaceStatusPreferenceController extends BiometricStatusPreferenceController {
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnResume;
@@ -127,5 +126,4 @@ public class FaceStatusPreferenceController extends BiometricStatusPreferenceCon
             }
         }
     }
-
 }
